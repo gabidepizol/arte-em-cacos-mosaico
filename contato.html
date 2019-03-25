@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <script src="//use.edgefonts.net/niconne;maven-pro.js"></script>
+        <meta charset="utf-8">
+        <title>Arte em Cacos Mosaicos - Contato</title>
+        
+        <meta name="description" content="Venha conferir diversos produtos feitos de mosaico. Temos a pronta entrega e por encomenda.">
+        
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Arte em Cacos Mosaicos - Contato"/>
+        <meta property="og:description" content="Venha conferir diversos produtos feitos de mosaico. Temos a pronta entrega e por encomenda."/>
+        <meta property="og:url" content="http://arteemcacosmosaicos.com.br/contato.html"/>
+        <meta property="og:image" content="http://arteemcacosmosaicos.com.br/img/op.png"/>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" href="favicon.ico">
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/contato.css">
+        <link rel="stylesheet" href="css/responsivo.css">
+    </head>
+    <body>
+        <!--Cabeçalho-->
+        <header class="header">
+            <div class="container">
+                <a href="index.html" class="grid-4">
+                    <p class="logo">A.C.M.</p>                
+                </a>
+                <nav class="grid-12 header_menu">
+                    <ul>
+                        <li><a href="index.html">Ínicio</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="portfolio.html">Portfólio</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--Introdução-->
+        <section class="intro intro_resp">
+            <div class="container borda_texto">
+                <h1>Contato</h1>
+                <blockquote class="quote-externo">
+                    <p>Tire suas dúvidas ou faça um orçamento</p>
+                </blockquote>
+            </div>  
+        </section>
+        <section class="formulario animar">
+            <div class="container">                
+                <form action="enviar.php" method="post" name="form" class="formphp form grid-8">
+                    <label for="nome">Nome</label>
+                    <input id="nome" name="nome" type="text">
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" type="text">
+                    <label id="fone" for="telefone">Telefone/Celular</label>
+                    <input id="telefone" name="telefone" type="text">
+
+                    <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+                    <input type="text" class="nao-aparece" name="leaveblank">
+                    <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+                    <input type="text" class="nao-aparece" name="dontchange" value="http://" >
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+
+                    <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+                </form>
+                <div class="orcamento_dados grid-8">
+                    <h3>Dados</h3>
+                    <span>(14) 99783-2960</span>
+                    <span class="dados_email">lynmostasso@hotmail.com</span>
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/arteemcacosmosaicosourinhos/" target="_blank"><img src="img/facebook.png" alt="facebook"></a></li>
+                        <li><a href="https://www.instagram.com/evelynmostasso/" target="_blank"><img src="img/instagram.png" alt="instagram"></a></li>
+                    </ul>
+                </div>
+            </div> 
+        </section>
+        <!--Rodapé-->
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    
+                    <div class="grid-8 footer_contato">
+                        <h3>CONTATO</h3>
+                        <ul>
+                            <li>Celular e Whatsapp: (14) 99783-2960</li>
+                            <li>Email: lynmostasso@hotmail.com</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer_redes grid-8">
+                        <h3>REDES SOCIAIS</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/arteemcacosmosaicosourinhos/" target="_blank"><img src="img/facebook.png" alt="facebook"></a></li>
+                            <li><a href="https://www.instagram.com/evelynmostasso/" target="_blank"><img src="img/instagram.png" alt="instagram"></a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+        <script src="js/libs/jquery-1.11.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

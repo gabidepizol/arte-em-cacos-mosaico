@@ -1,0 +1,98 @@
+/*tablets*/
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+.tam_img{
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.img_port{
+    width: 400px;
+    height: 250px; 
+    width: auto;
+    margin-left: 10px;
+}
+
+    
+.port_list{
+    text-align: center;
+}
+
+}
+
+/*celular*/
+@media only screen and (max-width: 767px){
+
+/*HEADER*/
+.header{
+    position: relative;
+    padding-bottom: 0px;
+}
+
+.logo{
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
+    
+.header_menu{
+    text-align: center;
+}
+    
+.header_menu ul li{
+    margin: 0;
+}
+
+.header_menu ul li a{
+    border: 2px solid #000;
+    width: 140px;
+    display: block;
+    float: left;
+}
+
+/*INTRO*/
+.intro{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+    
+.intro h1{
+    font-size: 70px;
+    margin-bottom: 75px;
+}
+    
+.btn_noescruro:hover{
+    color: #d6c6ac;
+    border-color: #d6c6ac;
+}
+    
+/*port-home*/
+    
+.img_port{
+    width: 400px;
+    height: 250px; 
+    width: auto;
+    margin-bottom: 20px;
+}
+    
+/*h1 das paginas de prod port e contato*/
+
+.intro_resp{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.intro_resp h1{
+    margin-bottom: auto;
+}
+
+    
+/*imagens port*/
+
+.port_list{
+    text-align: center;
+}
+    
+
+}
